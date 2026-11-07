@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "PAT-2026-001",
+    "fullName": "John Doe",
+    "dateOfBirth": "1985-06-15",
+    "contactNumber": "555-0101",
+    "bloodGroup": "O+",
+    "medicalHistory": {
+      "allergies": ["Penicillin"],
+      "chronicConditions": ["Hypertension"]
+    },
+    "appointments": [
+      {
+        "appointmentId": "APT-1001",
+        "doctor": {
+          "doctorId": "DOC-501",
+          "name": "Dr. Alice Brown",
+          "specialty": "Cardiology"
+        },
+        "appointmentDate": "2026-11-10T09:00:00Z",
+        "status": "Completed",
+        "reason": "Routine Heart Checkup",
+        "prescriptions": [
+          {
+            "prescriptionId": "RX-801",
+            "medicationName": "Lisinopril",
+            "dosage": "10mg",
+            "instructions": "Take 1 tablet daily"
+          }
+        ]
+      }
+    ],
+    "labRecords": [
+      {
+        "labRecordId": "LAB-301",
+        "testType": "Echocardiogram",
+        "result": "Normal ejection fraction",
+        "dateConducted": "2026-11-01"
+      }
+    ]
+  }
+]
