@@ -65,7 +65,7 @@ advanced-database-portfolio/
 
 ## 3. Portfolio Breakdown & Summary of Activities
 
-### Portfolio 1: Database Design and Modelling (7 Marks)
+### Portfolio 1: Database Design and Modelling
 
 * Created a Third Normal Form (3NF) relational database schema using SQLite/SQL syntax.
 
@@ -73,7 +73,7 @@ advanced-database-portfolio/
 
 * Rendered and committed an Entity-Relationship Diagram (`er-diagram.png`).
 
-### Portfolio 2: Query Processing and Optimisation (7 Marks)
+### Portfolio 2: Query Processing and Optimisation 
 
 * Developed complex multi-table SQL queries joining up to 5 tables for patient charts and aggregate doctor workload reporting.
 
@@ -81,7 +81,7 @@ advanced-database-portfolio/
 
 * Applied composite and secondary indexes (`idx_appointments_patient_date`, `idx_appointments_doctor`, `idx_prescriptions_appointment`, `idx_lab_patient_doctor`) to convert full scans into logarithmic index searches (`SEARCH TABLE`).
 
-### Portfolio 3: Transactions and Concurrency Control (7 Marks)
+### Portfolio 3: Transactions and Concurrency Control 
 
 * Wrote ACID-compliant transactional scripts featuring `BEGIN TRANSACTION`, `COMMIT`, and explicit `ROLLBACK` for multi-step clinical workflows (appointment booking + lab ordering).
 
@@ -89,13 +89,13 @@ advanced-database-portfolio/
 
 * Executed scripts locally against `hospital.db` and saved screenshot evidence (`transaction-execution.png`).
 
-### Portfolio 4: NoSQL and Advanced Data Models (7 Marks)
+### Portfolio 4: NoSQL and Advanced Data Models 
 
 * Formulated a NoSQL document schema (`hospital-nosql.json`) embedding medical history, appointments, prescriptions, and lab results inside a single patient document.
 
 * Conducted a performance and structural comparison between Relational SQL (3NF) and Document NoSQL (MongoDB/JSON format), highlighting single-read chart retrieval benefits.
 
-### Portfolio 5: Distributed and Cloud Database Exercise (6 Marks)
+### Portfolio 5: Distributed and Cloud Database Exercise 
 
 * Architected an AWS RDS Multi-AZ Primary-Replica replication model to guarantee high availability (99.99% uptime) and offload read-heavy analytics to read replicas.
 
